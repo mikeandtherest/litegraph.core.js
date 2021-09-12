@@ -1,8 +1,8 @@
 {
-    "name": "litegraph.js",
-    "version": "0.7.10",
-    "description": "A graph node editor similar to PD or UDK Blueprints. It works in an HTML5 Canvas and allows to export graphs to be included in applications.",
-    "main": "build/litegraph.js",
+    "name": "litegraph.core.js",
+    "version": "0.1.0",
+    "description": "Core only version of litegraph.js. Might include other deltas compared to the source, like fixes, improvements and new features.",
+    "main": "build/litegraph.core.js",
     "types": "src/litegraph.d.ts",
     "directories": {
         "doc": "doc"
@@ -10,7 +10,9 @@
     "private": false,
     "scripts": {
         "prebuild": "rimraf build",
-        "build": "grunt build",
+        "build": "bash ./utils/build.sh",
+        "prebuild:win": "rimraf build",
+        "build:win": "powershell .\\utils\\build.ps1",
         "start": "nodemon utils/server.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier": "npx prettier --write src/**/*.* css/**/*.*",
@@ -19,9 +21,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jagenjo/litegraph.js.git"
+        "url": "git+https://github.com/mikeandtherest/litegraph.core.js.git"
     },
-    "author": "jagenjo",
+    "author": "mikeandtherest",
     "license": "MIT",
     "files": [
         "build",
@@ -29,9 +31,9 @@
         "src/litegraph.d.ts"
     ],
     "bugs": {
-        "url": "https://github.com/jagenjo/litegraph.js/issues"
+        "url": "https://github.com/mikeandtherest/litegraph.core.js/issues"
     },
-    "homepage": "https://github.com/jagenjo/litegraph.js#readme",
+    "homepage": "https://github.com/mikeandtherest/litegraph.core.js#readme",
     "devDependencies": {
         "express": "^4.17.1",
         "google-closure-compiler": "^20171112.0.0",

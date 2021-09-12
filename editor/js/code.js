@@ -76,22 +76,6 @@ function addDemo( name, url )
 	select.appendChild( option );
 }
 
-//some examples
-addDemo("Features", "examples/features.json");
-addDemo("Benchmark", "examples/benchmark.json");
-addDemo("Subgraph", "examples/subgraph.json");
-addDemo("Audio", "examples/audio.json");
-addDemo("Audio Delay", "examples/audio_delay.json");
-addDemo("Audio Reverb", "examples/audio_reverb.json");
-addDemo("MIDI Generation", "examples/midi_generation.json");
-addDemo("autobackup", function(){
-	var data = localStorage.getItem("litegraphg demo backup");
-	if(!data)
-		return;
-	var graph_data = JSON.parse(data);
-	graph.configure( graph_data );
-});
-
 //allows to use the WebGL nodes like textures
 function enableWebGL()
 {
@@ -103,11 +87,7 @@ function enableWebGL()
 
 	var libs = [
 		"js/libs/gl-matrix-min.js",
-		"js/libs/litegl.js",
-		"../src/nodes/gltextures.js",
-		"../src/nodes/glfx.js",
-		"../src/nodes/glshaders.js",
-		"../src/nodes/geometry.js"
+		"js/libs/litegl.js"
 	];
 
 	function fetchJS()
