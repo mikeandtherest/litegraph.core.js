@@ -1,6 +1,6 @@
 # litegraph.core.js
 
-![npm](https://img.shields.io/npm/v/litegraph.core.js) ![GitHub](https://img.shields.io/github/license/mikeandtherest/litegraph.core.js) ![npm bundle size](https://img.shields.io/bundlephobia/min/litegraph.core.js)
+![npm](https://img.shields.io/npm/v/litegraph.core.js) [![License](https://img.shields.io/badge/Licence-MIT-green.svg)](https://github.com/mikeandtherest/litegraph.core.js/blob/master/LICENSE) ![npm bundle size](https://img.shields.io/bundlephobia/min/litegraph.core.js)
 
 Core only version of litegraph.js. It might also contain other deltas compared to the source, like fixes, improvements and even new features.
 
