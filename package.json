@@ -25,6 +25,13 @@
     },
     "author": "mikeandtherest",
     "license": "MIT",
+    "keywords": [
+        "visual node graph",
+        "HTML5",
+        "Canvas2D",
+        "javascript",
+        "typescript"
+    ],
     "files": [
         "build",
         "css/litegraph.css",
