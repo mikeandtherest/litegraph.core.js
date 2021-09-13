@@ -1,5 +1,7 @@
 # litegraph.core.js
 
+![npm](https://img.shields.io/npm/v/litegraph.core.js) [![License](https://img.shields.io/badge/Licence-MIT-green.svg)](https://github.com/mikeandtherest/litegraph.core.js/blob/master/LICENSE) ![npm bundle size](https://img.shields.io/bundlephobia/min/litegraph.core.js)
+
 Core only version of litegraph.js. It might also contain other deltas compared to the source, like fixes, improvements and even new features.
 
 The reason for this fork is that on a lot of projects people will have specific business requirements that will imply specific and customized nodes. In such cases it doesn't make sense to bundle the whole set of predefined nodes that come with the full version of litegraph.js.
