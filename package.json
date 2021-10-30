@@ -1,6 +1,6 @@
 {
     "name": "litegraph.core.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Core only version of litegraph.js. Might include other deltas compared to the source, like fixes, improvements and new features.",
     "main": "build/litegraph.core.js",
     "types": "src/litegraph.d.ts",
