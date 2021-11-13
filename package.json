@@ -1,6 +1,6 @@
 {
     "name": "litegraph.core.js",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Core only version of litegraph.js. Might include other deltas compared to the source, like fixes, improvements and new features.",
     "main": "build/litegraph.core.js",
     "types": "src/litegraph.d.ts",
@@ -43,12 +43,12 @@
     "homepage": "https://github.com/mikeandtherest/litegraph.core.js#readme",
     "devDependencies": {
         "express": "^4.17.1",
-        "google-closure-compiler": "^20171112.0.0",
-        "grunt": "^1.1.0",
-        "grunt-cli": "^1.2.0",
+        "google-closure-compiler": "^20211107.0.0",
+        "grunt": "^1.4.1",
+        "grunt-cli": "^1.4.3",
         "grunt-closure-tools": "^1.0.0",
-        "grunt-contrib-concat": "^1.0.1",
-        "nodemon": "^1.19.4",
-        "rimraf": "^2.7.1"
+        "grunt-contrib-concat": "^2.0.0",
+        "nodemon": "^2.0.15",
+        "rimraf": "^3.0.2"
     }
 }

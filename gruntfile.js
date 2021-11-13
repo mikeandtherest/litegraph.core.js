@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     closureCompiler: {
 
       options: {
-        compilerFile: 'node_modules/google-closure-compiler/compiler.jar',
+        compilerFile: 'node_modules/google-closure-compiler-java/compiler.jar',
         compilerOpts: {
           formatting: 'pretty_print',
           warning_level: 'default'
